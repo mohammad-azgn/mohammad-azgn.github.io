@@ -1,0 +1,293 @@
+body {
+    margin: 0;
+    background: url(Pic/back.png);
+    font-family: roya, sans-serif;
+}
+
+@font-face {
+    font-family: roya;
+    src: url("B Koodk Bold.ttf");
+}
+
+h2 {
+    direction: rtl;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: url(Pic/back1.png);
+    align-items: center;
+}
+
+nav a {
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: #204064;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+header {
+    background: url(Pic/back1.png);
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+#bio {
+    text-align: center;
+}
+
+#bio img {
+    height: 200px;
+    border-radius: 50%;
+}
+
+#prof {
+    height: 200px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#prof div:hover {
+    border-radius: 50%;
+    animation-name: animate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    from {
+        border: 11px solid #677380b0;
+        padding: 0;
+    }
+    to {
+        border: 2px solid #67738000;
+        padding: 65px;
+    }
+}
+
+#bio h2 {
+    color: aliceblue;
+    text-align: center;
+}
+
+#bio span {
+    color: blueviolet;
+    font-size: 18px;
+}
+
+section {
+    width: 80%;
+    margin: 45px auto auto;
+}
+
+.content {
+    background: ghostwhite;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.content h2 {
+    margin-top: 0;
+}
+
+#about p {
+    direction: rtl;
+}
+
+.edu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.edu div {
+    border-bottom: 2px solid #0f2031;
+    padding: 3px;
+}
+
+.edu a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 650px) {
+    .edu {
+        margin-bottom: 40px;
+    }
+
+    .edu div {
+        margin: 10px;
+    }
+}
+
+#skill p {
+    font-family: sans-serif;
+}
+
+.skill_bar {
+    background-color: #ddd;
+}
+
+.Skills {
+    font-family: sans-serif;
+    text-align: right;
+    padding: 5px;
+    color: white;
+}
+
+.java {
+    width: 55%;
+    background-color: #893e8b;
+}
+
+.android {
+    width: 50%;
+    background-color: #4CAF50;
+}
+
+.html {
+    width: 45%;
+    background-color: #f44336;
+}
+
+.javaFX {
+    width: 35%;
+    background-color: #2196F3;
+}
+
+.assembly {
+    width: 35%;
+    background-color: #808080;
+}
+
+.c_sharp {
+    width: 25%;
+    background-color: #1d5386;
+}
+
+.php {
+    width: 20%;
+    background-color: #851b7f;
+}
+
+.c {
+    width: 15%;
+    background-color: #129658;
+}
+
+#TA_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#TA h3 {
+    padding: 20px;
+    margin: 0;
+    width: 115px;
+    text-align: center;
+}
+
+#TA #course {
+    background: #ff4949;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#TA #time {
+    background: mediumslateblue;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#contact_flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#contact_flex .col {
+    width: 450px;
+}
+
+form {
+    direction: rtl;
+}
+
+.input input, textarea {
+    width: 90%;
+    border-radius: 3px;
+    border: 1px solid #0b583b;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+#submit input {
+    height: 35px;
+    width: 80px;
+    font-size: 17px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: none;
+    background: mediumslateblue;
+}
+
+@media (max-width: 1150px) {
+    #contact_flex .col {
+        width: 60%;
+    }
+}
+
+.col #more {
+    padding: 20px;
+}
+
+.col #more p {
+    font-family: sans-serif;
+}
+
+#contact_flex .col h3 {
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+
+#contact_flex .col p {
+    margin-top: 0;
+    margin-left: 25px;
+}
+
+@media (max-width: 460px) {
+    #contact_flex .col {
+        width: auto;
+    }
+}
+
+footer #logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+footer #logo img {
+    width: 50px;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: 0;
+}
