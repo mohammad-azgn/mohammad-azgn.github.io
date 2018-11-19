@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background: url(Pic/back.png);
+    background: url(image/back.png);
     font-family: roya, sans-serif;
 }
 
@@ -17,7 +17,7 @@ nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: url(Pic/back1.png);
+    background: url(image/back1.png);
     align-items: center;
 }
 
@@ -32,7 +32,7 @@ nav a {
 }
 
 header {
-    background: url(Pic/back1.png);
+    background: url(image/back1.png);
     padding-top: 60px;
     padding-bottom: 30px;
 }
