@@ -16,31 +16,26 @@ h2 {
 nav {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    background: url(image/back1.png);
-    align-items: center;
+    justify-content: center;
+    background: url(image/back.png);
 }
 
 nav a {
-    margin-top: 10px;
     font-size: 20px;
-    background-color: #204064;
     color: white;
     padding: 5px 20px;
-    border-radius: 50px;
     text-decoration: none;
 }
 
 header {
     background: url(image/back1.png);
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
 
 #bio {
     text-align: center;
 }
-
 
 #bio img {
     height: 200px;
@@ -74,12 +69,13 @@ header {
 
 #bio h2 {
     color: aliceblue;
-    text-align: center;
+    font-size: 28px;
+    margin: 10px;
 }
 
 #bio span {
     color: blueviolet;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section {
@@ -100,6 +96,7 @@ section {
 
 #about p {
     direction: rtl;
+    font-size: 18px;
 }
 
 .edu {
@@ -112,6 +109,7 @@ section {
 .edu div {
     border-bottom: 2px solid #0f2031;
     padding: 3px;
+    font-size: 18px;
 }
 
 .edu a {
@@ -129,8 +127,13 @@ section {
     }
 }
 
+#skill h2 {
+    margin: 0;
+}
+
 #skill p {
     font-family: sans-serif;
+    margin-bottom: 5px;
 }
 
 .skill_bar {
@@ -176,11 +179,11 @@ section {
 
 .php {
     width: 20%;
-    background-color: #851b7f;
+    background-color: #ae5b23;
 }
 
 .c {
-    width: 15%;
+    width: 20%;
     background-color: #129658;
 }
 
@@ -196,6 +199,7 @@ section {
     margin: 0;
     width: 115px;
     text-align: center;
+    font-size: 20px;
 }
 
 #TA #course {
