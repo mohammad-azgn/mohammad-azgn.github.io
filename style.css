@@ -14,10 +14,11 @@ h2 {
 }
 
 nav {
+    direction: rtl;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background: url(image/back.png);
+    padding: 5px;
 }
 
 nav a {
@@ -25,6 +26,11 @@ nav a {
     color: white;
     padding: 5px 20px;
     text-decoration: none;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background: #0f2031;
 }
 
 header {
