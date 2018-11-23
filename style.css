@@ -249,13 +249,13 @@ section {
 }
 
 #TA #course {
-    background: #ff4949;
+    background: #009688;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 
 #TA #time {
-    background: mediumslateblue;
+    background: #E0E0E0;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     margin-bottom: 10px;
