@@ -208,29 +208,19 @@ section {
     background-color: #f44336;
 }
 
-.javaFX {
-    width: 35%;
-    background-color: #2196F3;
-}
-
 .assembly {
     width: 35%;
     background-color: #808080;
 }
 
+.javaFX {
+    width: 35%;
+    background-color: #2196F3;
+}
+
 .c_sharp {
     width: 25%;
     background-color: #1d5386;
-}
-
-.php {
-    width: 20%;
-    background-color: #ae5b23;
-}
-
-.c {
-    width: 20%;
-    background-color: #129658;
 }
 
 #TA_flex {
