@@ -1,2 +1,2 @@
-# mohammad-azgn.github.io
-My CV webpage
+# My CV
+https://azgn.ir/cv
